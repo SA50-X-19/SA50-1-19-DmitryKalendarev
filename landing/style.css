@@ -94,3 +94,25 @@
 .link2 {
   color: rgba(255, 255, 255, 1);
 }
+.header__logo {
+  position: relative;
+  right: 35px;
+  width: 37px; 
+  height: 37px;
+  bottom:5px;
+
+  background: #F2994A;
+  border-radius: 50%;
+  z-index: 1;
+  display: flex ;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.logo {
+  position: relative;
+  bottom: 5px ;
+  font-size: 35px;
+  color:white;
+  font-weight: bold;
+}
