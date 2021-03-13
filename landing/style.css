@@ -38,6 +38,7 @@
 
 .header__right {
   margin-bottom: 17px;
+  text-decoration: none;
 }
 .menu__list {
   display: flex;
@@ -47,10 +48,11 @@
 }
 
 .menu__items {
-margin-left: 20px;
+  margin-left: 20px;
 }
 .sign{
   display: flex;
+  text-decoration: none;
 }
 
 .sign__in {
@@ -62,6 +64,7 @@ margin-left: 20px;
   border: 1px solid #F2994A;
   box-sizing: border-box;
   border-radius: 4px;
+  text-decoration: none;
 }
 
 .sign__up {
@@ -74,6 +77,7 @@ margin-left: 20px;
   box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
   border-radius: 3px;
   margin-left: 20px;
+  text-decoration: none;
 }
 
 .header__logo {
@@ -90,12 +94,10 @@ margin-left: 20px;
   position: relative;
   margin-top: 10px;
   padding-top: 5px;
-  size:7px;
   left: 9px; 
   top: 0px;
   bottom: 5px;
   background: #FFFFFF;
-
   width: 18px;
 
 }
@@ -105,7 +107,6 @@ margin-left: 20px;
   position: relative;
   margin-top: 10px;
   padding-top: 5px;
-  size:7px;
   left: -9px; 
   top: 10px;
   bottom: 5px;
@@ -114,14 +115,43 @@ margin-left: 20px;
 
 }
 .color__white {
- color:rgba(181, 181, 181, 1);
-
+  color:rgba(181, 181, 181, 1);
+  text-decoration: none;
 }
 
 .link__in {
   color: rgba(242, 153, 74, 1);
+  text-decoration: none;
 }
 
 .link__up {
   color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+
+.menu__links:active {
+
+  width: 20px;
+  height: 20px;
+  background: yellow;
+  transition: 400ms;
+  
+}
+
+.menu__items:hover {
+  transform: translateY(-5px);
+}
+
+.sign__in:hover {
+  transform: rotate(99999deg);
+  transition: 500000ms;
+}
+
+.sign__up:hover {
+  transform: rotate(99999deg);
+  transition: 500000ms;
+}
+
+a {
+  text-decoration: none;
 }
