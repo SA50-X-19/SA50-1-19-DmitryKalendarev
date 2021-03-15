@@ -130,4 +130,24 @@
   height: 6px;
   z-index: 2;
   border-radius:  15%;
+
+}
+
+.sign__in:hover {
+  transform: rotate(99999deg);
+  transition: 500000ms;
+}
+
+.sign__up:hover {
+  transform: rotate(99999deg);
+  transition: 500000ms;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.menu__items:hover {
+  transform: translateY(-5px);
 }
