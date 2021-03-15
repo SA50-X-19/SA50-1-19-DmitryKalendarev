@@ -10,7 +10,7 @@
   display: flex;
   justify-content: center;
   padding-top: 79px;
-  background: linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%);
+  background: linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%); 
  
 }
 .header {
@@ -25,7 +25,6 @@
   line-height: 20px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  margin-bottom: 5px;
 }
 
 
@@ -33,24 +32,39 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around ;
-
 }
 
+
+.left__block{
+  width: 427px;
+  height: 36px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+
+}
 .header__right {
-  margin-bottom: 17px;
+  display: flex;
+  align-items: center;
 }
 .menu__list {
+  margin: 0px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  width: 347px;
+  height: 36px;
+  align-items: center;
 
 }
 
-.menu__items {
-margin-left: 20px;
-}
 .sign{
   display: flex;
+  width: 244px;
+  justify-content: space-around;
+  align-items: center;
+  height: 36px;
 }
 
 .sign__in {
@@ -73,48 +87,22 @@ margin-left: 20px;
   background: #F2994A;
   box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
   border-radius: 3px;
-  margin-left: 20px;
 }
 
 .header__logo {
-  position: relative;
-  bottom: 7.5px;
   display: flex;
   width: 37px; 
   height: 37px;
   background: rgba(242, 153, 74, 1);
   border-radius: 50%;
-}
-
-.shape1{
-  position: relative;
-  margin-top: 10px;
-  padding-top: 5px;
-  size:7px;
-  left: 9px; 
-  top: 0px;
-  bottom: 5px;
-  background: #FFFFFF;
-
-  width: 18px;
-
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  
 }
   
-  
-.shape2{
-  position: relative;
-  margin-top: 10px;
-  padding-top: 5px;
-  size:7px;
-  left: -9px; 
-  top: 10px;
-  bottom: 5px;
-  background: #FFFFFF;
-  width: 18px;
-
-}
 .color__white {
- color:rgba(181, 181, 181, 1);
+ color: rgba(181, 181, 181, 1);
 
 }
 
@@ -124,4 +112,22 @@ margin-left: 20px;
 
 .link__up {
   color: rgba(255, 255, 255, 1);
+}
+
+
+.logo__item1{
+  background-color: white;
+  width: 14px;
+  height: 6px;
+  z-index: 2;
+  border-radius: 15%;
+  margin-bottom: 2px;
+}
+
+.logo__item2{
+  background-color: white;
+  width: 14px;
+  height: 6px;
+  z-index: 2;
+  border-radius:  15%;
 }
