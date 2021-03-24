@@ -138,7 +138,7 @@ a {
 .Donate {
   
   text-align: left;
-  background: blue;
+ 
   display: flex;
   width: 160px;
   height: 60px;
@@ -157,4 +157,11 @@ a {
   border-radius: 5%;
   width: 160px;
   height: 60px;
+  -webkit-transition: 500ms ease;
+
+}
+
+.Donate1:hover {
+  transition: 500ms;
+  transform: scale(1.2,1.2);
 }
