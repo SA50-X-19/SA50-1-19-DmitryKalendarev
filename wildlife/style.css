@@ -34,6 +34,10 @@
   letter-spacing: 0em;
 }
 
+.header__left {
+  height: 60px;
+}
+
 .header__logo {
   width: 240px;
   height: 60px;
@@ -90,8 +94,9 @@ a {
   display: flex;
   align-items: flex-end;
   height:460px;
-  width: 395px;
+  width: 470px;
   justify-content: flex-end;
+
 }
 
 
@@ -477,3 +482,10 @@ input {
   transform:rotate(720deg)
 
 }
+
+.li__footer:active {
+  transition: 600ms;
+  transform:translateY(-5px)
+}
+
+
